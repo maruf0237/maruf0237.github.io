@@ -715,17 +715,16 @@ section {
             flex-direction: row;
         }
 
-        .project-thumb {
-            background: linear-gradient(135deg, var(--bg), var(--bg2));
-            height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            border-bottom: 1px solid var(--border);
-            position: relative;
-            overflow: hidden;
-        }
+       .project-thumb {
+    background: linear-gradient(135deg, var(--bg), var(--bg2));
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
 
         .project-card.featured .project-thumb {
             width: 40%;
@@ -772,6 +771,14 @@ section {
             color: var(--white);
             margin-bottom: 0.75rem;
         }
+  .project-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    position: relative;
+    z-index: 1;
+}
 
         .project-desc {
             font-size: 0.82rem;
@@ -1281,3 +1288,18 @@ section {
                 gap: 2rem;
             }
         }
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+    font-size: 0.72rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.cert-link:hover {
+    border-color: var(--accent);
+}
