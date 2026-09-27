@@ -3,7 +3,7 @@
 
 Personal portfolio website showcasing my projects, skills, certifications, and experience as a Computer Science & Engineering student.
 
-🔗 **Live site:** https://maruf0237.github.io/maruf.dev/
+🔗 **Live site:** https://maruf0237.github.io/marufulislam.github.io/
 👨‍💻 **GitHub:** https://github.com/maruf0237
 
 ---
